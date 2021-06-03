@@ -1,0 +1,84 @@
+.btn {    
+    cursor: pointer;
+    color: #fff;
+    padding: 1px 1px 1px; 
+    font-size: 13px;  
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+}
+
+
+.btn-large { 
+    margin-top: 75px;
+    margin-left: 50px;
+    width: 1px;
+    padding: 15px;
+     font-size: 19px;
+      border-radius: 5px; 
+}
+.btn:hover { 
+    background-color: #077187; 
+}
+
+.btn-primary { 
+    background-color: #4a77d4;  
+    border: 1px solid #3762bc;
+     text-shadow: 1px 1px 1px rgba(0,0,0,1);
+     box-shadow:  0 1px 2px rgba(0, 0, 0, 1);
+ }
+.btn-block { 
+    width: 75%; 
+    display:block; 
+}
+
+html {
+    width: 100%; height:100%;
+}
+
+body { 
+	font-family: Roboto;
+	background: radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),linear-gradient(top,  rgba(57,173,219,.25) 0%, rgba(42,60,87,.4) 100%), linear-gradient(-45deg,  #670d10 0%, #092756 100%);
+	background: radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg,  #670d10 0%,#092756 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
+}
+.login { 
+    background-color: rgba(0, 0, 0, 0.18);
+	width: 500px;
+    height: 500px;
+    margin: 7em auto;
+    border-radius: 1.7em;
+    box-shadow: 0px 12px 36px 2px rgba(0, 0, 0, 0.2);
+}
+.login h1 { 
+    padding: 5px;
+    font-family: 'Times New Roman';
+    color: #fff; 
+    text-align:center; 
+    font-size: 40px;
+}
+
+ h1 { 
+    font-family: Helvetica;
+    padding: 5px;
+    color: #fff; 
+    text-align:center; 
+    font-size: 40px;
+}
+
+input { 
+    margin: 25px;
+	width: 75%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+	border: 1px solid rgba(0,0,0,0.5);
+	border-radius: 4px;
+	box-shadow:  0 1px 1px rgba(255,255,255,0.3);
+}
+
